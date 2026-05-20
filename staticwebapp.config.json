@@ -1,0 +1,19 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/css/*", "/js/*", "/images/*"]
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "headers": {
+        "Cache-Control": "must-revalidate, max-age=3600"
+      }
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  }
+}

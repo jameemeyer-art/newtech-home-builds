@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Gallery | NewTech Home Builds</title>
+  <meta name="description" content="Browse our portfolio of completed new homes, steelworks, fencing, and renovation projects." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏗️</text></svg>" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav scrolled">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">New<span>Tech</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="bookings.html" class="nav-cta">Book Consult</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Page Hero ─────────────────────────────────────────── -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="tag">Our Portfolio</div>
+      <h1>Project Gallery</h1>
+      <p>Explore completed projects across all our service areas — every image tells a story of craftsmanship.</p>
+    </div>
+  </section>
+
+  <!-- ── Gallery ───────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="builds">New Builds</button>
+        <button class="filter-btn" data-filter="steel">Steelworks</button>
+        <button class="filter-btn" data-filter="fencing">Fencing</button>
+        <button class="filter-btn" data-filter="renovations">Renovations</button>
+        <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-full">
+
+        <div class="gallery-item" data-cat="builds"
+             data-src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=85"
+             data-caption="Custom Home Build — Riverside Estate">
+          <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=75" alt="Custom home build" loading="lazy" />
+          <div class="gallery-overlay"><span>Custom Home — Riverside Estate</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="steel"
+             data-src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=85"
+             data-caption="Industrial Steel Frame — Warehouse">
+          <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=600&q=75" alt="Steel frame warehouse" loading="lazy" />
+          <div class="gallery-overlay"><span>Industrial Frame — Warehouse</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="fencing"
+             data-src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85"
+             data-caption="Colorbond Fencing — Residential">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=75" alt="Colorbond fencing" loading="lazy" />
+          <div class="gallery-overlay"><span>Colorbond — Residential</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="renovations"
+             data-src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=85"
+             data-caption="Kitchen Renovation — Paddington">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=75" alt="Kitchen renovation" loading="lazy" />
+          <div class="gallery-overlay"><span>Kitchen Reno — Paddington</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="builds"
+             data-src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=1200&q=85"
+             data-caption="Modern Home Extension — Manly">
+          <img src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=600&q=75" alt="Home extension" loading="lazy" />
+          <div class="gallery-overlay"><span>Home Extension — Manly</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="maintenance"
+             data-src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=85"
+             data-caption="Roof Repair and Restoration">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=75" alt="Roof maintenance" loading="lazy" />
+          <div class="gallery-overlay"><span>Roof Repair &amp; Restoration</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="builds"
+             data-src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=85"
+             data-caption="Luxury New Build — Mosman">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=75" alt="Luxury new home" loading="lazy" />
+          <div class="gallery-overlay"><span>Luxury Build — Mosman</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="steel"
+             data-src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=85"
+             data-caption="Structural Steel Installation">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=75" alt="Structural steel" loading="lazy" />
+          <div class="gallery-overlay"><span>Structural Steel Install</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="renovations"
+             data-src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1200&q=85"
+             data-caption="Bathroom Renovation — Cremorne">
+          <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=600&q=75" alt="Bathroom renovation" loading="lazy" />
+          <div class="gallery-overlay"><span>Bathroom Reno — Cremorne</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="fencing"
+             data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=85"
+             data-caption="Timber Privacy Fence — Surry Hills">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=75" alt="Timber fencing" loading="lazy" />
+          <div class="gallery-overlay"><span>Timber Fence — Surry Hills</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="builds"
+             data-src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=85"
+             data-caption="Duplex Development — Crows Nest">
+          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=75" alt="Duplex development" loading="lazy" />
+          <div class="gallery-overlay"><span>Duplex Dev — Crows Nest</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="renovations"
+             data-src="https://images.unsplash.com/photo-1581577538629-00e5e0c6f84c?w=1200&q=85"
+             data-caption="Open Plan Living Extension — Balmain">
+          <img src="https://images.unsplash.com/photo-1581577538629-00e5e0c6f84c?w=600&q=75" alt="Living extension" loading="lazy" />
+          <div class="gallery-overlay"><span>Open Plan Extension — Balmain</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Lightbox ───────────────────────────────────────────── -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="" />
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <!-- ── CTA Banner ────────────────────────────────────────── -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Inspired by What You See?</h2>
+      <p>Let's talk about your project. Book a free consultation and we'll bring your vision to life.</p>
+      <a href="bookings.html" class="btn btn-dark">📅 Book a Free Consult</a>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:.75rem">New<span>Tech</span></div>
+          <p>Quality construction, steelworks, fencing, renovations and maintenance. Building better spaces since 2005.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">in</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">li</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#builds">New Home Builds</a></li>
+            <li><a href="services.html#steel">Steelworks</a></li>
+            <li><a href="services.html#fencing">Fencing</a></li>
+            <li><a href="services.html#renovations">Renovations</a></li>
+            <li><a href="services.html#maintenance">Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="bookings.html">Book Consult</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+61291234567">📞 (02) 9123 4567</a></li>
+            <li><a href="mailto:info@newtechbuilds.com.au">✉️ info@newtechbuilds.com.au</a></li>
+            <li>📍 42 Trade Street, Sydney NSW</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 NewTech Home Builds. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
